@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nhóm 4 thành viên</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Giới thiệu nhóm</h1>
+    <p class="lead">Bốn thành viên — hợp tác, sáng tạo và học hỏi.</p>
+  </header>
+
+  <main class="container">
+    <section class="members-grid">
+      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member1.svg'">
+          <h2>Nguyễn Đình Phúc</h2>
+          <p class="role">Frontend Developer</p>
+          <p class="bio">Đam mê UI/UX, tạo giao diện sạch và dễ dùng.</p>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member2.svg'">
+          <h2>Nguyễn Đình Phúc</h2>
+          <p class="role">Backend Developer</p>
+          <p class="bio">Xây dựng API mạnh mẽ và an toàn.</p>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member3.svg'">
+          <h2>Nguyễn Đình Phúc</h2>
+          <p class="role">Data Analyst</p>
+          <p class="bio">Chuyển dữ liệu thành thông tin có ích cho quyết định.</p>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member4.svg'">
+          <h2>Nguyễn Đình Phúc</h2>
+          <p class="role">Project Manager</p>
+          <p class="bio">Điều phối dự án, giữ nhịp và giao tiếp đội nhóm.</p>
+        </article>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Nhóm 4 thành viên</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
