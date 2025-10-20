@@ -3,57 +3,251 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nhóm 4 thành viên</title>
+  <title>Dream Team - Nhóm 5 Thành Viên</title>
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="site-header">
-    <h1>Giới thiệu nhóm</h1>
-    <p class="lead">Bốn thành viên — hợp tác, sáng tạo và học hỏi.</p>
+  <!-- Sci-fi HUD overlay -->
+  <div class="hud-overlay">
+    <div class="hud-corner hud-top-left"></div>
+    <div class="hud-corner hud-top-right"></div>
+    <div class="hud-corner hud-bottom-left"></div>
+    <div class="hud-corner hud-bottom-right"></div>
+    <div class="hud-scanlines"></div>
+    <div class="hud-grid"></div>
+  </div>
+
+  <!-- Matrix rain effect -->
+  <div class="matrix-rain">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+
+  <!-- Holographic elements -->
+  <div class="hologram-elements">
+    <div class="hologram-circle holo-1"></div>
+    <div class="hologram-circle holo-2"></div>
+    <div class="hologram-hexagon"></div>
+    <div class="hologram-lines"></div>
+  </div>
+
+  <!-- Lens flares -->
+  <div class="lens-flares">
+    <div class="flare flare-1"></div>
+    <div class="flare flare-2"></div>
+    <div class="flare flare-3"></div>
+  </div>
+
+  <!-- Advanced particles system -->
+  <div class="particles-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle particle-large"></div>
+    <div class="particle particle-large"></div>
+  </div>
+  
+  <!-- Cinematic vignette -->
+  <div class="vignette-overlay"></div>
+
+  <header class="hero-header">
+    <!-- Dynamic background layers -->
+    <div class="hero-background">
+      <div class="bg-layer bg-layer-1"></div>
+      <div class="bg-layer bg-layer-2"></div>
+      <div class="bg-layer bg-layer-3"></div>
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+      <div class="light-rays"></div>
+    </div>
+    
+    <!-- Cinematic text reveal -->
+    <div class="hero-content">
+      <div class="title-container">
+        <h1 class="hero-title sci-fi-title unified-glitch" data-text="DREAM TEAM">
+          <span class="title-line">DREAM</span>
+          <span class="title-line title-accent">TEAM</span>
+        </h1>
+        <div class="title-glow"></div>
+        <div class="title-hologram"></div>
+      </div>
+      
+      <p class="hero-subtitle cinematic-text cyber-text">
+        <span class="text-reveal cyber-line">FIVE ELITE MEMBERS</span>
+        <span class="text-reveal cyber-line">BUILDING THE DIGITAL FUTURE</span>
+      </p>
+      
+      <!-- Sci-fi status indicators -->
+      <div class="status-indicators">
+        <div class="status-item">
+          <div class="status-icon"></div>
+          <span class="status-text">SYSTEM ONLINE</span>
+        </div>
+        <div class="status-item">
+          <div class="status-icon"></div>
+          <span class="status-text">NEURAL LINK ACTIVE</span>
+        </div>
+      </div>
+      
+      <div class="hero-stats cinematic-stats sci-fi-stats">
+        <div class="stat-item" data-delay="0">
+          <div class="stat-border"></div>
+          <span class="stat-number cyber-number" data-text="05">05</span>
+          <span class="stat-label">OPERATIVES</span>
+          <div class="stat-pulse"></div>
+        </div>
+        <div class="stat-item" data-delay="0.3">
+          <div class="stat-border"></div>
+          <span class="stat-number cyber-number" data-text="10+">10+</span>
+          <span class="stat-label">MISSIONS</span>
+          <div class="stat-pulse"></div>
+        </div>
+        <div class="stat-item" data-delay="0.6">
+          <div class="stat-border"></div>
+          <span class="stat-number cyber-number" data-text="∞">∞</span>
+          <span class="stat-label">POTENTIAL</span>
+          <div class="stat-pulse"></div>
+        </div>
+      </div>
+      
+      <!-- Futuristic CTA -->
+      <div class="hero-cta sci-fi-cta">
+        <div class="cta-frame">
+          <div class="cta-corner tl"></div>
+          <div class="cta-corner tr"></div>
+          <div class="cta-corner bl"></div>
+          <div class="cta-corner br"></div>
+          <span class="cta-text">INITIALIZE EXPLORATION PROTOCOL</span>
+          <div class="cta-scanline"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Enhanced scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-arrow">
+        <div class="arrow-inner"></div>
+      </div>
+      <div class="scroll-pulse"></div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="members-grid">
-      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
+  <main class="main-content">
+    <section class="team-intro">
+      <div class="container">
+        <h2 class="section-title">Đội ngũ của chúng tôi</h2>
+        <p class="section-subtitle">Mỗi thành viên đều là một mảnh ghép quan trọng, cùng nhau tạo nên sức mạnh tập thể</p>
+      </div>
+    </section>
+
+    <section class="members-section">
+      <div class="container">
+        <div class="members-grid">
+      <a class="member-link" href="https://khoadangdoan.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">
         <article class="member-card">
-          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member1.svg'">
-          <h2>Nguyễn Đình Phúc</h2>
-          <p class="role">Frontend Developer</p>
-          <p class="bio">Đam mê UI/UX, tạo giao diện sạch và dễ dùng.</p>
+          <div class="card-background"></div>
+          <div class="member-avatar">
+            <img src="assets/members/khoa.jpg" alt="Avatar Đoàn Đăng Khoa" class="avatar" onerror="this.onerror=null;this.src='assets/members/member1.svg'">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="member-info">
+            <h2>Đoàn Đăng Khoa</h2>
+            <p class="role">Frontend Developer</p>
+            <p class="bio">Đam mê UI/UX, tạo giao diện sạch và dễ dùng.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://lucy-first.github.io/profile/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <div class="card-background"></div>
+          <div class="member-avatar">
+            <img src="assets/members/tung.jpg" alt="Avatar Nguyễn Ngọc Tùng" class="avatar" onerror="this.onerror=null;this.src='assets/members/member2.svg'">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="member-info">
+            <h2>Nguyễn Ngọc Tùng</h2>
+            <p class="role">Frontend Developer</p>
+            <p class="bio">Chuyên về React và modern JavaScript frameworks.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://lamtiendat-077205008057.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <div class="card-background"></div>
+          <div class="member-avatar">
+            <img src="assets/members/dat.jpg" alt="Avatar Lâm Tiến Đạt" class="avatar" onerror="this.onerror=null;this.src='assets/members/member3.svg'">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="member-info">
+            <h2>Lâm Tiến Đạt</h2>
+            <p class="role">Frontend Developer</p>
+            <p class="bio">Tạo trải nghiệm người dùng tuyệt vời và responsive design.</p>
+          </div>
+        </article>
+      </a>
+
+      <a class="member-link" href="https://thang7749.github.io/BTGK/" target="_blank" rel="noopener noreferrer">
+        <article class="member-card">
+          <div class="card-background"></div>
+          <div class="member-avatar">
+            <img src="assets/members/thang.jpg" alt="Avatar Nguyễn Quốc Thắng" class="avatar" onerror="this.onerror=null;this.src='assets/members/member4.svg'">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="member-info">
+            <h2>Nguyễn Quốc Thắng</h2>
+            <p class="role">Backend Developer</p>
+            <p class="bio">Xây dựng API mạnh mẽ và hệ thống backend hiệu quả.</p>
+          </div>
         </article>
       </a>
 
       <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
         <article class="member-card">
-          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member2.svg'">
-          <h2>Nguyễn Đình Phúc</h2>
-          <p class="role">Backend Developer</p>
-          <p class="bio">Xây dựng API mạnh mẽ và an toàn.</p>
+          <div class="card-background"></div>
+          <div class="member-avatar">
+            <img src="assets/members/phuc.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member1.svg'">
+            <div class="avatar-ring"></div>
+          </div>
+          <div class="member-info">
+            <h2>Nguyễn Đình Phúc</h2>
+            <p class="role">Mobile Developer</p>
+            <p class="bio">Phát triển ứng dụng di động đa nền tảng và user-friendly.</p>
+          </div>
         </article>
       </a>
-
-      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
-        <article class="member-card">
-          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member3.svg'">
-          <h2>Nguyễn Đình Phúc</h2>
-          <p class="role">Data Analyst</p>
-          <p class="bio">Chuyển dữ liệu thành thông tin có ích cho quyết định.</p>
-        </article>
-      </a>
-
-      <a class="member-link" href="https://dinhphucaz2005.github.io/GK/" target="_blank" rel="noopener noreferrer">
-        <article class="member-card">
-          <img src="assets/members/member.jpg" alt="Avatar Nguyễn Đình Phúc" class="avatar" onerror="this.onerror=null;this.src='assets/members/member4.svg'">
-          <h2>Nguyễn Đình Phúc</h2>
-          <p class="role">Project Manager</p>
-          <p class="bio">Điều phối dự án, giữ nhịp và giao tiếp đội nhóm.</p>
-        </article>
-      </a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Nhóm 4 thành viên</p>
+  <footer class="premium-footer">
+    <div class="footer-background">
+      <div class="footer-gradient"></div>
+    </div>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>Dream Team</h3>
+        <p>Xây dựng tương lai số</p>
+      </div>
+      <div class="footer-info">
+        <p>© <span id="year"></span> Dream Team - Nhóm 5 thành viên tài năng</p>
+        <p>Được tạo với ❤️ và nhiều ☕</p>
+      </div>
+    </div>
   </footer>
 
   <script>
